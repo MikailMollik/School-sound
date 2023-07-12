@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap");
+/* Brandname start here */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  font-family: "Secular One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.header{
+  background-color: #FFF2F3;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+
+  /* background-color: #FFF2F3;
+  margin: 0;
+  padding: 0;
+  list-style: none; */
+
+
+h1,
+h2,
+h3,
+h4,
+
+h6 {
+  color:#252B42;
+}
+h5{
+  color: #96BB7C;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .container,
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainmenu ul {
+  display: flex;
+}
+
+.mainmenu li a {
+  display: inline-block;
+  padding: 10px 27px;
+  color: #1d1d1d;
+}
+
+.mainmenu li.get-started-link a {
+  background: #96BB7C;
+  color: #e4e0ec;
+  border-radius: 5px;
+}
+
+.mainmenu li.login-link a {
+  color: #96BB7C;
+}
+.mainmenu li a {
+  color: #252B42;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.hero-text h2 {
+  color: #252B42;
+  font-size: 48px;
+  margin-bottom: 35px;
+  line-height: 50px;
+  padding: 50px 50px;
+}
+.hero-text p {
+  color: #737373;
+}
+
+body {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+.btn {
+  border: 1px solid;
+  display: inline-block;
+  padding: 10px 27px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn.primary-btn {
+  background: #96BB7C;
+  border-color: #96BB7C;
+  color: #fff;
+}
+
+.btn.secondary-btn {
+  background-color: #FFF2F3;
+  border-color: #96BB7C;
+  color: #96BB7C;
+}
+
+.hero-text p {
+  margin-bottom: 45px;
+}
+.profile::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+/* Brandname ends here */
+
+
+
+
+/* card staet here */
+.packages{
+  display: flex;
+  background-color: #FFFFFF;
+  padding-top: 64px;
+}
+
+.caler-box{
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  padding-left: 50px;
+}
+.more{
+  color: #96BB7C;
+}
+.col-md-5{
+  width: 700px;
+  height: 360px;
+  padding: 55px;
+  padding-top: 30px;
+}
+.card-md-col-3{
+  height: 240px;
+  width: 244px;
+  background-color:rgb(255, 252, 252);
+}
+.ardol-col-3{
+  height: 240px;
+  width: 244px;
+  
+}
+/* card ends here */
+
+/* acction stard here */
+.action-img{
+  display: flex;
+  padding-left: 100px;
+}
+.calgr-box{
+  background-color: red;
+  width: 20px;
+  height: 5px;
+  padding: 0;
+  padding-left: 40px; 
+}
+.pass .calgr-box{
+ margin-top: 200px;
+ margin-left: 100px;
+}
+
+.pass h2{
+ padding-top: 10px;
+ padding-left: 100px;
+}
+.pass p{
+  padding-top: 20px;
+  width: 800px;
+  height: 100px;
+  padding-left: 100px;
+}
+.btnsecondary-bgn{
+  padding-left: 100px;
+  color: #96BB7C;
+}
+/* acction ends here */
